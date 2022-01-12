@@ -1,0 +1,25 @@
+{
+	"name": "expresscore/router",
+	"license": "MIT",
+	"description": "",
+	"require": {
+		"php": ">=8.0",
+		"phpunit/phpunit": "9.5.*",
+		"symfony/var-dumper": "5.3.*"
+	},
+	"keywords": ["library", "router", "routing", "http"],
+	"homepage": "https://devsprint.pl",
+	"authors": [
+		{
+			"name": "Marcin Stodulski",
+			"homepage": "https://devsprint.pl",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"expresscore\\router\\": "src",
+			"test\\router\\helpers\\": "tests/helpers"
+		}
+	}
+}
